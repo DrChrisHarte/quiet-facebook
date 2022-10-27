@@ -13,6 +13,11 @@ div[id*="topnews"] {
 	visibility: hidden !important;
 }
 
+/* block the video watch feed*/
+div[id*="watch_feed"] { 
+	visibility: hidden !important;
+}
+
 /* For Facebook 2020 redesign */
 div[data-pagelet="Stories"], /* Stories list */
 div[data-pagelet="VideoChatHomeUnit"], /* Rooms/video chat list */
